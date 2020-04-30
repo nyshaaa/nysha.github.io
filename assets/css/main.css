@@ -3186,6 +3186,7 @@ input, select, textarea {
 
 			#footer > .inner > * > :last-child {
 				margin-bottom: 0;
+				
 			}
 
 			#footer > .inner section:nth-child(1) {
@@ -3195,13 +3196,13 @@ input, select, textarea {
 
 			#footer > .inner section:nth-child(2) {
 				width: calc(33% - 2.5em);
-				margin-left: 2.5em;
+				margin-left: 2.5em; 
 			}
 
 			#footer > .inner .copyright {
 				width: 100%;
 				padding: 0;
-				margin-top: 5em;
+				margin-top: 0.5em;
 				list-style: none;
 				font-size: 0.8em;
 				color: rgba(88, 88, 88, 0.5);
@@ -3222,7 +3223,7 @@ input, select, textarea {
 					#footer > .inner .copyright li:first-child {
 						border-left: 0;
 						padding-left: 0;
-						margin-left: 0;
+						margin-left: 700px;
 					}
 
 		@media screen and (max-width: 1280px) {
